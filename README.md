@@ -1,3 +1,11 @@
-# Client_Server_Project
-
-This is a client server project for WSU CptS 455 as homework #3.
+# Client Server Project
+This is a project that uses Python sockets to function. It can send instant messages as well as send files to the other program running.
+## Run the Program
++ Start the server python file ` python Server.py `
++ Start the client python file ` python Client.py `
+## How to use
++ Type ` Message ` then the message to send the message to the other python program
++ Type ` File ` then the file in the current directory to send to the other python program
+### Notes
++ This is run from the local address of 127.0.0.1 for both the client and the server not over the open internet
++ The file being sent over needs to be in the current directory
